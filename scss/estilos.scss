@@ -1,7 +1,9 @@
 // variables
-$color-principal: #f5f5f7;
-$color-secundario: #7e7a7a;
-$color-terciario: #000000;
+$color-principal: #dcbd94;
+$color-secundario: #bc844c;
+$color-terciario: #d1c2af;
+$color-4: #edcb9d;
+$color-5: #614238;
 
 $font-logo: 'Exo 2', sans-serif;
 $font-subtitulo: 'IBM Plex Mono', monospace;
@@ -37,8 +39,12 @@ body {
     padding-right: 20px;
     padding-bottom: 0px;
     font-family:$font-logo ;
-    color: $color-terciario;
+    color: $color-4;
+}
 
+.logo2 {
+    list-style: none;
+    text-decoration: none;
 }
 
 .nav_estilo {
@@ -57,13 +63,34 @@ body {
     font-family: $font-subtitulo;
 }
 
+h2 {
+        font-size: 20px;
+        padding: 20px;
+        margin: 0px 00px 50px 0px;
+        background-color: $color-secundario;
+        color: $color-4;
+}
+
 .subtitulo2 {
     margin-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
     font-size: 20px;
     background-color: $color-principal;
     text-align: center;
     font-family: $font-subtitulo;
+    p {
+        padding: 20px;
+        margin: 20px;
+        background-color: $color-secundario;
+        border-radius: 20px;
+    }
 }
+
+.subtitulo3 {
+    font-size: 35px;
+}
+
 
 .productos_1 {
     display: flex;
@@ -85,7 +112,7 @@ body {
 .precios_1 {
     display: flex;
     justify-content: space-between;
-    color: $color-terciario;
+    color: $color-5;
     text-decoration: none;
     font-family: $font-subtitulo;
     margin: 10px;
@@ -97,18 +124,31 @@ body {
 
 .contacto {
     align-items: center;
-    padding-top: 100px;
+    padding-top: 40px;
     padding-left: 20px;
     width: 60%;
+    color: $color-5;
+}
+.form-control {
+    background-color: $color-terciario;
 }
 
-.estilo_producto {
-    filter: $filter1;
-    width: 300px;
+.form-select {
+    background-color: $color-terciario;
+}
+
+.btn-dark {
+    color: $color-secundario;
+    background-color: $color-5;
+    border: 0px;
 }
 
 .tamaño_accesorios {
     width: $width-logo;
+}
+
+.oferta {
+    width: 20%;
 }
 
 .footer_flex  {
@@ -132,8 +172,7 @@ body {
 .footer_estilo_left {
     width: $width-logo;
     padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 7px;
+    padding-bottom: 20px;
 }
 
 .submit {

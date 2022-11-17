@@ -6,42 +6,63 @@
 a:hover {
   font-weight: bolder;
   font-size: 17px;
-  color: #7e7a7a; }
+  color: #bc844c; }
 
 body {
-  background-color: #f5f5f7; }
+  background-color: #dcbd94; }
   body ul {
     list-style: none; }
 
 .fixed-top {
-  background-color: #f5f5f7; }
+  background-color: #dcbd94; }
 
 .logo1 {
   font-size: 50px;
   padding-right: 20px;
   padding-bottom: 0px;
   font-family: "Exo 2", sans-serif;
-  color: #000000; }
+  color: #edcb9d; }
+
+.logo2 {
+  list-style: none;
+  text-decoration: none; }
 
 .nav_estilo {
-  background-color: #7e7a7a; }
+  background-color: #bc844c; }
 
 .nav_a {
-  color: #f5f5f7 !important; }
+  color: #dcbd94 !important; }
 
 .subtitulo1 {
   margin-top: 90px;
   font-size: 30px;
-  background-color: #f5f5f7;
+  background-color: #dcbd94;
   text-align: center;
   font-family: "IBM Plex Mono", monospace; }
 
+h2 {
+  font-size: 20px;
+  padding: 20px;
+  margin: 0px 00px 50px 0px;
+  background-color: #bc844c;
+  color: #edcb9d; }
+
 .subtitulo2 {
   margin-top: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
   font-size: 20px;
-  background-color: #f5f5f7;
+  background-color: #dcbd94;
   text-align: center;
   font-family: "IBM Plex Mono", monospace; }
+  .subtitulo2 p {
+    padding: 20px;
+    margin: 20px;
+    background-color: #bc844c;
+    border-radius: 20px; }
+
+.subtitulo3 {
+  font-size: 35px; }
 
 .productos_1 {
   display: flex;
@@ -49,7 +70,7 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   line-height: 20px;
-  background-color: #f5f5f7;
+  background-color: #dcbd94;
   padding-bottom: 60px;
   padding-top: 10px; }
 
@@ -61,7 +82,7 @@ body {
 .precios_1 {
   display: flex;
   justify-content: space-between;
-  color: #000000;
+  color: #614238;
   text-decoration: none;
   font-family: "IBM Plex Mono", monospace;
   margin: 10px; }
@@ -71,19 +92,30 @@ body {
 
 .contacto {
   align-items: center;
-  padding-top: 100px;
+  padding-top: 40px;
   padding-left: 20px;
-  width: 60%; }
+  width: 60%;
+  color: #614238; }
 
-.estilo_producto {
-  filter: drop-shadow(4px 6px 12px gray);
-  width: 300px; }
+.form-control {
+  background-color: #d1c2af; }
+
+.form-select {
+  background-color: #d1c2af; }
+
+.btn-dark {
+  color: #bc844c;
+  background-color: #614238;
+  border: 0px; }
 
 .tamaño_accesorios {
   width: 45px; }
 
+.oferta {
+  width: 20%; }
+
 .footer_flex {
-  background-color: #7e7a7a;
+  background-color: #bc844c;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -100,8 +132,7 @@ body {
 .footer_estilo_left {
   width: 45px;
   padding-top: 5px;
-  padding-bottom: 5px;
-  margin: 7px; }
+  padding-bottom: 20px; }
 
 .submit {
   margin-bottom: 50px; }
